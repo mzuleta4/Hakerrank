@@ -8,7 +8,7 @@ function bonAppetit(bill, k, b) {
 
     const charge = b - (total / 2);
 
-    return charge === 0 ? 'Bon Appetit' : charge;
+    return charge === 0 ? console.log('Bon Appetit') : console.log(charge);
 
 }
 
